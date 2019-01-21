@@ -1,0 +1,10 @@
+{
+	"authors": [
+		"azure"
+	],
+	"copyright": "Copyright © 2019, azure",
+	"description": "A simple glTF2 loader in D.",
+	"license": "MIT",
+	"name": "gltf2loader",
+	"targetType": "sourceLibrary"
+}

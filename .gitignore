@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/gltf2loader
+gltf2loader.so
+gltf2loader.dylib
+gltf2loader.dll
+gltf2loader.a
+gltf2loader.lib
+gltf2loader-test-*
+*.exe
+*.o
+*.obj
+*.lst
