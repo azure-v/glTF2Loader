@@ -555,7 +555,7 @@ struct glTF2Asset {
 			if ("byteOffset" in accessor)
 				accessors[i].byteOffset = accessor["byteOffset"].integer;
 			if ("normalized" in accessor) {
-				if (accessor["normalized"].type == JSON_TYPE.TRUE)
+				if (accessor["normalized"].type == JSONType.true_)
 					accessors[i].normalized = true;
 				else
 					accessors[i].normalized = false;
@@ -684,7 +684,7 @@ struct glTF2Asset {
 			if ("alphaCutoff" in material)
 				materials[i].alphaCutoff = getFloatValue (material["alphaCutoff"]);
 			if ("doubleSided" in material) {
-				if (material["doubleSided"].type == JSON_TYPE.TRUE)
+				if (material["doubleSided"].type == JSONType.true_)
 					materials[i].doubleSided = true;
 				else
 					materials[i].doubleSided = false;
